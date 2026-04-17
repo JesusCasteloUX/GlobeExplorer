@@ -1,16 +1,29 @@
-# React + Vite
+# Globe Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación interactiva que permite explorar información de países del mundo a través de un globo terráqueo 3D.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Globo 3D interactivo con rotación automática
+- Clic en el globo para detectar y seleccionar países
+- Buscador de países en tiempo real
+- Panel con información detallada: capital, población, idioma, moneda y fronteras
+- Diseño responsivo — funciona en móvil y desktop
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- Three.js + React Three Fiber + Drei
+- Tailwind CSS
+- RestCountries API
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Demo
+
+[Ver en vivo](TU_URL_DE_NETLIFY)
