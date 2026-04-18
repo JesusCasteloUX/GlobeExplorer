@@ -26,4 +26,4 @@ npm run dev
 
 ## Demo
 
-[Ver en vivo](TU_URL_DE_NETLIFY)
+[Ver en vivo](https://globeexplore.netlify.app)
